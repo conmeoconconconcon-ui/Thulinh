@@ -1,0 +1,5 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  vocsy_epub_viewer: ^1.0.2 # Thư viện đọc file EPUB
+  shared_preferences: ^2.2.2 # Lưu tổng thời gian đọc và cấp độ thú
