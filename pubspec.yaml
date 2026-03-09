@@ -1,5 +1,19 @@
+name: reading_monster
+description: App đọc sách EPUB và nuôi linh thú.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0' # Đây là dòng còn thiếu gây ra lỗi 65
+
 dependencies:
   flutter:
     sdk: flutter
-  vocsy_epub_viewer: ^1.0.2 # Thư viện đọc file EPUB
-  shared_preferences: ^2.2.2 # Lưu tổng thời gian đọc và cấp độ thú
+  vocsy_epub_viewer: ^1.0.2
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
