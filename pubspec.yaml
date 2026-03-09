@@ -3,12 +3,13 @@ description: App đọc sách EPUB và nuôi linh thú.
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.0 <4.0.0' # Đây là dòng còn thiếu gây ra lỗi 65
+  sdk: '>=3.2.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  vocsy_epub_viewer: ^1.0.2
+  # Đã cập nhật phiên bản mới hơn để tránh lỗi build
+  vocsy_epub_viewer: ^1.1.0 
   shared_preferences: ^2.2.2
 
 dev_dependencies:
